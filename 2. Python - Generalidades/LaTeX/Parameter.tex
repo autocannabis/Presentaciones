@@ -1,0 +1,17 @@
+\usetheme{Boadilla}
+\definecolor{c}{rgb}{0,0,.25}
+\usecolortheme[named=c]{structure}
+\usefonttheme{structureitalicserif}
+
+\usepackage[ngerman]{babel}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc} 
+\usepackage{graphicx}
+\usepackage{feynmp-auto}
+\usepackage{hyperref}
+\usepackage{listings}
+
+\newenvironment{variableblock}[3]{%
+  \setbeamercolor{block body}{#2}
+  \setbeamercolor{block title}{#3}
+  \begin{block}{#1}}{\end{block}}
