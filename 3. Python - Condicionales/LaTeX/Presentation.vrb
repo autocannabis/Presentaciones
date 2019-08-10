@@ -1,0 +1,20 @@
+\frametitle{Ejercicios}
+\vspace{10pt}
+
+\begin{enumerate}
+
+	\item Imprime una lista correspondiente a la mitad de un n\'umero \textit{n}, que pertence a los n\'umeros naturales, y que es dado por el usuario (INDIVIDUAL).
+	\item Imprime un texto, proveniente de un bloc de notas, hasta que se encuentre con una letra espec\'ifica (INDIVIDUAL).
+	\item Sup\'on que un sustrato tiene la siguiente composici\'on qu\'imica. Disminuye los elementos de manera aleatoria e incrementa, de manera proporcional, el restante (la idea es que la suma \underline{siempre} de 100) (GRUPAL).	
+
+\end{enumerate}
+\begin{center}
+\begin{lstlisting}
+	sustrato = {
+		'Potasio': 20,
+		'Nitrogeno': 40,
+		'Fosforo': 20,
+		'Restante': 20					
+		}
+\end{lstlisting}
+\end{center}

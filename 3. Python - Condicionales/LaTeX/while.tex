@@ -1,0 +1,23 @@
+\begin{frame}[fragile]{Ciclos - while}\vspace{10pt}
+
+El ciclo while es un ciclo \textbf{din\'amico}. No se detendr\'a hasta que cumpla una condici\'on dada.
+
+\begin{block}{Estructura}
+	while <condici\'on>:
+\end{block}
+
+\vspace{5pt}
+
+Es ampliamente usado cuando \textbf{no} conocemos el posible final de un ciclo, o cuando la condici\'on de salida es variable. Por ejemplo:
+
+\begin{center}
+\begin{lstlisting}
+	import random
+	x = 0
+	while x < 20:
+		x = random.randint(0,70)
+		print(x)
+\end{lstlisting}
+\end{center}
+
+\end{frame}

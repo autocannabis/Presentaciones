@@ -1,0 +1,28 @@
+\begin{frame}[fragile]{Archivo de texto}\vspace{10pt}
+
+Podemos leer y escribir archivos de texto con Python (s\'i, tambi\'en podemos crear informes autom\'aticos...). 
+
+\vspace{5pt}
+
+Para \textbf{leer}:
+
+\begin{center}
+\begin{lstlisting}
+	with open(ruta_archivo, 'r') as file:
+		lineas = file.readlines()
+\end{lstlisting}
+\end{center}
+
+\vspace{5pt}
+
+Para \textbf{escribir}:
+
+\begin{center}
+\begin{lstlisting}
+	with open(ruta_archivo, 'w+') as file:
+		file.write(texto)
+\end{lstlisting}
+\end{center}
+
+
+\end{frame}
