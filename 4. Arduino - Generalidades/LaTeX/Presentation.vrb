@@ -1,0 +1,25 @@
+\frametitle{Funciones}
+\vspace{10pt}
+
+Una \textit{funci\'on} es un segmento de c\'odigo que desarrolla una tarea espec\'ifica. Las funciones se escriben com\'unmente al principio o al final del \textit{Sketch}, o \textit{Script}, y se \textbf{llaman} dentro de otras funciones.
+
+\vspace{5pt}
+
+Las ventajas de usar funciones son:
+
+\begin{itemize}
+	\item Ayudan a mantener la \textbf{organizaci\'on} del c\'odigo (conceptualiza el algoritmo escrito).
+	\item Permiten probar ``tareas" \textbf{una sola vez}.
+	\item Disminuye probabilidades de errores de programaci\'on.
+	\item Permite reutilizar c\'odigo.
+\end{itemize}
+
+\begin{center}
+\begin{lstlisting}
+	TV nombre_funcion (TV var1, TV var2, ...) {
+		...
+		return resultados;	//Opcional...	
+	}
+\end{lstlisting}
+\end{center}
+

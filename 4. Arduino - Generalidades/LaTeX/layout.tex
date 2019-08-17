@@ -1,0 +1,44 @@
+\begin{frame}[allowframebreaks]{Software - Layout}\vspace{0pt}
+
+Arduino usa \textit{C++} como lenguaje de programaci\'on. A diferencia de Python, C++ es un lenguaje \textbf{est\'atico}: debes declarar la naturaleza de las variables y tener en cuenta el tama\~no que ocupar\'an \'estas en la memoria RAM.
+
+\begin{table}[h!]
+\begin{adjustbox}{max width=\textwidth}
+\begin{tabular}{|l|r|l|}
+\hline
+\multicolumn{1}{|c|}{\textbf{Tipo variable (TV)}} & \multicolumn{1}{c|}{\textbf{Memoria usada $[bits]$}} & \textbf{Aplicaci\'on}                                                                           \\ \hline
+void                                         & \multicolumn{1}{c|}{-}                      & Declaraci\'on de funciones                                                                      \\ \hline
+byte                                         & 8                                           & N\'umero entero entre 0 y 255.                                                                  \\ \hline
+int                                          & 16                                          & \begin{tabular}[c]{@{}l@{}}N\'umero entero entre -32767\\ y 32767.\end{tabular}                 \\ \hline
+long                                         & 32                                          & \begin{tabular}[c]{@{}l@{}}N\'umero entero entre -2,147,483,648\\ y 2,147,483,648.\end{tabular} \\ \hline
+float                                        & 32                                          & \begin{tabular}[c]{@{}l@{}}N\'umero real entre -3.4028325E+38\\ y 3.4028325E+38.\end{tabular}   \\ \hline
+boolean                                      & 8                                           & Variable booleana: true/false.                                                                \\ \hline
+char                                         & 8                                           & Caracteres ASCII.                                                                             \\ \hline
+String                                       & \multicolumn{1}{c|}{-}                      & Cadena de texto.                                                                              \\ \hline
+\end{tabular}
+\end{adjustbox}
+\end{table}
+
+\vspace{20pt}
+
+Un \textit{Sketch} com\'un de Arduino se compone de:
+
+\begin{itemize}
+	\item \textit{void} setup: acciones que se desarrollan \textbf{una} sola vez.
+	\item \textit{void} loop: acciones que se repiten una y otra vez (similar al ciclo while).
+\end{itemize}
+
+\vspace{10pt}
+
+Los comentarios dentro del algoritmo se hacen de la siguiente manera:
+
+\begin{itemize}
+	\item // Comentario: Comenta una sola l\'inea de c\'odigo.
+	\item /* Comentario */: Comenta una o varias l\'ineas. 
+\end{itemize}
+
+\vspace{10pt}
+
+IMPORTANTE: La sintaxis de \textit{C++} demanda que el final de cualquier l\'inea de c\'odigo sea con ``;".
+
+\end{frame}
