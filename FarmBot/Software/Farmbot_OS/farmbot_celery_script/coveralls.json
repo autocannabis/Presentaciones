@@ -1,5 +1,0 @@
-{
-  "skip_files": [
-    "lib/farmbot_celery_script/compiler/tools.ex"
-  ]
-}
