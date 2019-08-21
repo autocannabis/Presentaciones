@@ -1,0 +1,452 @@
+.panel-nav,
+.farm-designer-panels {
+  position: fixed;
+  top: 8.9rem;
+  width: 30rem;
+  @media screen and (max-width: 450px) {
+    width: 100%;
+  }
+}
+
+@keyframes panel-pullout {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.farm-designer-panels {
+  bottom: 0;
+  z-index: 1;
+  &.panel-closed {
+    display: none !important;
+  }
+  &.short-panel {
+    height: 24rem;
+  }
+  .panel-container {
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    font-size: 1.6rem;
+    padding-bottom: 3rem;
+    label {
+      font-size: 1.3rem;
+      margin-top: 2rem;
+    }
+  }
+  div {
+    animation: panel-pullout 0s ease;
+  }
+}
+
+.panel-container {
+  overflow: hidden;
+  &.green-panel {
+    background-color: $panel_light_green;
+  }
+  &.cyan-panel {
+    background-color: $light_cyan;
+  }
+  &.brown-panel {
+    background-color: $panel_light_brown;
+  }
+  &.magenta-panel {
+    background-color: $light_magenta;
+  }
+  &.gray-panel {
+    background-color: $panel_light_gray;
+  }
+  &.yellow-panel {
+    background-color: $panel_light_yellow;
+  }
+  &.blue-panel {
+    background-color: $panel_light_blue;
+  }
+  &.teal-panel {
+    background-color: $panel_light_teal;
+  }
+  &.red-panel {
+    background-color: $panel_light_red;
+  }
+}
+
+.panel-nav,
+.panel-header {
+  color: $light_gray;
+  &.green-panel {
+    background-color: $panel_green;
+  }
+  &.cyan-panel {
+    background-color: $cyan;
+  }
+  &.brown-panel {
+    background-color: $panel_brown;
+  }
+  &.magenta-panel {
+    background-color: $magenta;
+  }
+  &.gray-panel {
+    background-color: $panel_gray;
+  }
+  &.yellow-panel {
+    background-color: $panel_yellow;
+  }
+  &.blue-panel {
+    background-color: $panel_blue;
+  }
+  &.teal-panel {
+    background-color: $panel_teal;
+  }
+  &.red-panel {
+    background-color: $panel_red;
+  }
+}
+
+.panel-tabs {
+  display: flex;
+  img {
+    filter: brightness(0%) invert(100%);
+    opacity: 0.8;
+  }
+  a {
+    display: block;
+    flex: 1;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 1.4rem;
+    line-height: 5rem;
+    height: 5rem;
+    color: $light_gray;
+    &.active {
+      border-bottom: 3px solid $white;
+      font-weight: bold;
+      color: $white;
+      img {
+        opacity: 1;
+      }
+    }
+    &:hover {
+      color: $off_white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    &:focus {
+      color: $off_white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+  }
+}
+
+.panel-title {
+  height: 50px;
+  .back-arrow {
+    float: left;
+    color: $off_white;
+    text-align: center;
+    font-size: 1.8rem;
+    width: 50px;
+    line-height: 50px;
+    &:hover {
+      color: $white;
+    }
+  }
+  .title {
+    float: left;
+    color: $off_white;
+    font-size: 1.8rem;
+    white-space: nowrap;
+    width: 50%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    line-height: 50px;
+  }
+  .right-button {
+    position: absolute;
+    right: 0;
+    float: right;
+    text-transform: uppercase;
+    font-size: 1rem;
+    border: 1px solid;
+    padding: 0.4rem 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 4px;
+    color: $off_white;
+    margin-top: 1.25rem;
+    margin-right: 1.5rem;
+    &:hover {
+      color: $white;
+    }
+  }
+  button {
+    margin-left: 4px;
+  }
+}
+
+.plant-inventory-panel {
+  .panel-content {
+    padding: 0;
+    max-height: calc(100vh - 19rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+  }
+}
+
+.plant-selection-panel {
+  .panel-action-buttons {
+    position: absolute;
+    z-index: 9;
+    width: 100%;
+    background: $dark_green;
+    padding: 0.5rem;
+    button {
+      margin: 0.5rem;
+    }
+  }
+  .panel-content {
+    padding-top: 5rem;
+    padding-right: 0;
+    padding-left: 0;
+    padding-bottom: 5rem;
+    max-height: calc(100vh - 10rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    .plant-search-item {
+      pointer-events: none;
+    }
+    img {
+      filter: grayscale(100%);
+    }
+  }
+}
+
+.plant-info-panel {
+  .panel-content {
+    max-height: calc(100vh - 14rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-bottom: 5rem;
+  }
+}
+
+.point-creation-panel {
+  .panel-content {
+    .row {
+      margin-left: 0;
+      margin-right: 0;
+    }
+    padding: 0 3rem;
+    padding-right: 0;
+    padding-left: 0;
+    .fb-button {
+      margin: 1rem;
+      &.delete {
+        float: left;
+      }
+    }
+    .saucer {
+      margin-top: 0.25rem;
+      margin-left: 1rem;
+    }
+    .delete-row {
+      padding-left: 1rem;
+    }
+  }
+}
+
+.crop-catalog-panel {
+  .panel-content {
+    padding: 1rem 1rem 6rem;
+  }
+}
+
+.panel-top {
+  &.with-button {
+    display: flex;
+    margin-top: 5rem;
+    .fb-button {
+      margin: 1rem;
+      margin-left: 0;
+    }
+    a {
+      margin-top: 0.5rem;
+    }
+    i {
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.panel-content {
+  padding: 0 1rem;
+  a {
+    color: $black;
+    text-decoration: underline !important;
+  }
+}
+
+.add-farm-event-panel {
+  input {
+    background: $white;
+  }
+  .save-btn {
+    margin: 1rem;
+  }
+  .location-form {
+    width: 100% !important;
+  }
+}
+
+.add-farm-event-panel button.red,
+.edit-farm-event-panel button.red,
+.add-farm-event-panel button.magenta,
+.edit-farm-event-panel button.magenta {
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+.panel-nav {
+  position: fixed;
+  z-index: 2;
+}
+
+.panel-header {
+  .panel-header-description,
+  .crop-info-description {
+    font-size: 1.2rem;
+    padding: 0 1.4rem 1rem;
+  }
+  .crop-info-description {
+    max-height: 10rem;
+    overflow-y: auto;
+    overflow-x: hidden;
+  }
+}
+
+.crop-info-panel {
+  .panel-header {
+    position: inherit;
+    background-size: 144% !important;
+    background-repeat: no-repeat !important;
+    background-position: top center !important;
+  }
+  .panel-content {
+    max-height: calc(100vh - 19rem);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding: 2rem 1rem 6rem;
+    padding-bottom: 10rem;
+    li {
+      margin-bottom: 1rem;
+      p {
+        font-size: 1.25rem;
+      }
+    }
+  }
+  .edit-on-openfarm {
+    margin-bottom: 1rem;
+  }
+}
+
+.plants-panel-content {
+  li {
+    margin-top: 1rem;
+    p {
+      font-size: 1.25rem;
+    }
+  }
+  input {
+    background: $white;
+  }
+}
+
+.add-plant-panel,
+.move-to-panel {
+  padding-bottom: 0 !important;
+}
+
+.add-plant-panel {
+  .panel-header {
+    height: 100%;
+  }
+}
+
+.move-to-panel-content {
+  &.with-nav {
+    margin-top: 6rem;
+  }
+  margin-left: 1rem;
+  margin-right: 1rem;
+  button {
+    margin: 1rem;
+    margin-left: 2rem;
+    width: 88%;
+    float: left;
+  }
+  input {
+    min-width: 7rem;
+  }
+}
+
+.settings-panel-content {
+  max-height: calc(100vh - 15rem);
+  overflow-y: auto;
+  overflow-x: hidden;
+  margin-top: 5rem;
+  padding-bottom: 5rem;
+  button {
+    margin-top: 1.75rem;
+  }
+  p {
+    padding: 0.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+  .map-size-inputs {
+    .row {
+      margin-bottom: 1rem;
+    }
+    label {
+      margin-top: 0.5rem;
+    }
+  }
+  .designer-setting {
+    &.disabled {
+      input {
+        background: $gray;
+      }
+    }
+  }
+}
+
+.saved-garden-panel-content {
+  &.with-nav {
+    margin-top: 6rem;
+  }
+  margin-left: 1rem;
+  margin-right: 1rem;
+  .row {
+    margin-top: 1rem;
+  }
+  hr {
+    width: 100%;
+    padding-top: 1rem;
+  }
+  button {
+    margin-left: 0.5rem;
+    &.wide {
+      margin: 1rem;
+      margin-left: 2rem;
+      width: 88%;
+      float: left;
+    }
+  }
+  input {
+    min-width: 7rem;
+  }
+}

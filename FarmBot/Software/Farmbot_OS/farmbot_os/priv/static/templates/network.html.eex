@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8"/>
+    <title> Configure Farmbot's Network </title>
+    <link rel="stylesheet" href="/styles.css">
+    <script type="text/javascript">
+    function select_interface() {
+      var selected = document.getElementsByName("interfaceRadio");
+      for(var i = 0; i < selected.length; i++) {
+        if(selected[i].checked) {
+          document.getElementById("interface").value = selected[i].id;
+          document.getElementById("interfaceSelectForm").submit();
+        }
+      }
+    }
+    </script>
+
+  </head>
+
+  <body>
+    <h1>Configure FarmBot <%= version %> </h1>
+    <div class="widget">
+      <div class="widget-header"> <h5>Network</h5> </div>
+      <div class="widget-content">
+        <form class="connection-type-form" action="<%= post_action %>" id="interfaceSelectForm" method="post">
+          <p>How will you connect FarmBot to the Internet?</p>
+          <input id="interface" name="interface" value="" hidden/>
+          <% # Main form stuff %>
+          <%= for {ifname, settings} <- interfaces do %>
+
+            <label class="connection-type no-pad" for='<%= ifname %>'>
+              <input type="radio" id='<%= ifname %>' name="interfaceRadio" onclick="select_interface()"/>
+              
+              <div class="connection-type-box">
+                <img src='<%= if String.contains?(to_string(ifname), "w"), do: "icon_wifi.svg", else: "icon_ethernet.svg"%>'/>
+                <span><%= if String.contains?(to_string(ifname), "w"), do: "WiFi", else: "Ethernet"%></span>
+              </div>
+
+              <div class="connection-type-info">i</div>
+              
+              <div class="connection-type-info-content">
+                <h4> <%= ifname %> mac address: </h4> <p><%= settings.mac_address %></p>
+              </div>
+            </label>
+
+          <% end %>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

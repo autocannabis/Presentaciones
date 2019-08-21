@@ -1,0 +1,142 @@
+solid Onshape
+  facet normal 0 -0.970143 0.242536
+    outer loop
+      vertex 14.52 1.52 10.5
+      vertex 14.27 1.27 9.5
+      vertex 15.02 1.52 10.5
+    endloop
+  endfacet
+  facet normal 0 -0.970143 0.242536
+    outer loop
+      vertex 14.27 1.27 9.5
+      vertex 15.27 1.27 9.5
+      vertex 15.02 1.52 10.5
+    endloop
+  endfacet
+  facet normal 0 0.970143 0.242536
+    outer loop
+      vertex 14.27 2.27 9.5
+      vertex 14.52 2.02 10.5
+      vertex 15.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal 0 0.970143 0.242536
+    outer loop
+      vertex 14.52 2.02 10.5
+      vertex 15.02 2.02 10.5
+      vertex 15.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal 0.970142 0 0.242536
+    outer loop
+      vertex 15.27 2.27 9.5
+      vertex 15.02 2.02 10.5
+      vertex 15.27 1.27 9.5
+    endloop
+  endfacet
+  facet normal 0.970142 0 0.242536
+    outer loop
+      vertex 15.02 2.02 10.5
+      vertex 15.02 1.52 10.5
+      vertex 15.27 1.27 9.5
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 14.27 2.27 9.5
+      vertex 14.27 2.27 4.5
+      vertex 14.27 1.27 9.5
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 14.27 2.27 4.5
+      vertex 14.27 1.27 4.5
+      vertex 14.27 1.27 9.5
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 15.27 2.27 9.5
+      vertex 15.27 2.27 4.5
+      vertex 14.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 15.27 2.27 4.5
+      vertex 14.27 2.27 4.5
+      vertex 14.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal -0.970143 0 0.242535
+    outer loop
+      vertex 14.27 1.27 9.5
+      vertex 14.52 1.52 10.5
+      vertex 14.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal -0.970143 0 0.242535
+    outer loop
+      vertex 14.52 1.52 10.5
+      vertex 14.52 2.02 10.5
+      vertex 14.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 15.27 1.27 4.5
+      vertex 14.27 1.27 4.5
+      vertex 15.27 2.27 4.5
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 14.27 1.27 4.5
+      vertex 14.27 2.27 4.5
+      vertex 15.27 2.27 4.5
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 14.27 1.27 9.5
+      vertex 14.27 1.27 4.5
+      vertex 15.27 1.27 9.5
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 14.27 1.27 4.5
+      vertex 15.27 1.27 4.5
+      vertex 15.27 1.27 9.5
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 15.27 1.27 9.5
+      vertex 15.27 1.27 4.5
+      vertex 15.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 15.27 1.27 4.5
+      vertex 15.27 2.27 4.5
+      vertex 15.27 2.27 9.5
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 14.52 1.52 10.5
+      vertex 15.02 1.52 10.5
+      vertex 14.52 2.02 10.5
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 15.02 1.52 10.5
+      vertex 15.02 2.02 10.5
+      vertex 14.52 2.02 10.5
+    endloop
+  endfacet
+endsolid Onshape

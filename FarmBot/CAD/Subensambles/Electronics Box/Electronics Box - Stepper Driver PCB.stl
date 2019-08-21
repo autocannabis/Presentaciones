@@ -1,0 +1,86 @@
+solid Onshape
+  facet normal 0 0 -1
+    outer loop
+      vertex 0.5 72 11
+      vertex 0.5 87 11
+      vertex 20.82 72 11
+    endloop
+  endfacet
+  facet normal 0 0 -1
+    outer loop
+      vertex 0.5 87 11
+      vertex 20.82 87 11
+      vertex 20.82 72 11
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 87 13
+      vertex 0.5 72 13
+      vertex 20.82 87 13
+    endloop
+  endfacet
+  facet normal 0 0 1
+    outer loop
+      vertex 0.5 72 13
+      vertex 20.82 72 13
+      vertex 20.82 87 13
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 20.82 72 13
+      vertex 0.5 72 13
+      vertex 20.82 72 11
+    endloop
+  endfacet
+  facet normal 0 -1 0
+    outer loop
+      vertex 0.5 72 13
+      vertex 0.5 72 11
+      vertex 20.82 72 11
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0.5 72 13
+      vertex 0.5 87 13
+      vertex 0.5 72 11
+    endloop
+  endfacet
+  facet normal -1 0 0
+    outer loop
+      vertex 0.5 87 13
+      vertex 0.5 87 11
+      vertex 0.5 72 11
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 20.82 87 13
+      vertex 20.82 72 13
+      vertex 20.82 87 11
+    endloop
+  endfacet
+  facet normal 1 0 0
+    outer loop
+      vertex 20.82 72 13
+      vertex 20.82 72 11
+      vertex 20.82 87 11
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 0.5 87 13
+      vertex 20.82 87 13
+      vertex 0.5 87 11
+    endloop
+  endfacet
+  facet normal 0 1 0
+    outer loop
+      vertex 20.82 87 13
+      vertex 20.82 87 11
+      vertex 0.5 87 11
+    endloop
+  endfacet
+endsolid Onshape
