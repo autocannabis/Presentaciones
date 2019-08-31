@@ -1,0 +1,31 @@
+\begin{frame}[fragile]{Clases - sintaxis}\vspace{0pt}
+
+La sintaxis más básica es la siguiente:
+
+\begin{center}
+\begin{lstlisting}
+	class <Nombre de la clase>:
+		...
+\end{lstlisting}
+\end{center}
+
+La sintaxis \underline{más completa}:
+
+\begin{center}
+\begin{lstlisting}
+class <Nombre de la clase> (<Clase padre>):
+  <Propiedades generales>
+  def __init__(self, <entradas>):
+    (...)
+    super().__init__(<entr. padre>)	(OPCIONAL)
+	
+  def <nombre func. interna> (self, <entradas>):
+    (...)
+    return salidas	(OPCIONAL)
+  
+  def __call__(self):
+  	return <resultados>
+\end{lstlisting}
+\end{center}
+
+\end{frame}

@@ -1,0 +1,10 @@
+\begin{frame}[fragile]{Clases - sintaxis}\vspace{0pt}
+
+\begin{enumerate}
+	\item ``def \_\_init\_\_ (self, <entradas>)": corresponde al algoritmo que se inicializará el momento en que se \underline{llame} a una clase (una clase es llamada de la misma manera que una función: ``ClassName()``). 
+	\item ``super().\_\_init\_\_(<entr. padre>)``: llama la funci\'on \textit{def \_\_init\_\_} de la clase \textbf{padre}.
+	\item ``def <nombre func. interna> (self, ...)``: se conocen como \textit{m\'etodos} de la clase. Se pueden llamar por fuera de la misma. Por ejemplo: tenemos una clase llamada ``Alumno``, y uno de sus m\'etodos es ``horario``. Se llamaría: Alumno.horario(<entradas del método>).
+	\item ``def \_\_call\_\_ (self)``: permite obtener resultados de las clases. Cuando las clases son llamadas desde \textit{afuera}, se convierten en \textbf{objetos}. NO podemos obtener informaci\'on \'util de objetos a menos que los ``llamemos``. Se invoca la funci\'on \textit{call} poniendo un par\'entesis al final; por ejemplo: Juan = Alumno() $\rightarrow$ nos da un objeto. pero Juan(), nos da los resultados de la clase. 
+\end{enumerate}
+
+\end{frame}
