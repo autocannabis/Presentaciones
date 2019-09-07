@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.21)  20 JUL 2019 07:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (MiKTeX 2.9.7000 64-bit) (preloaded format=pdflatex 2019.5.21)  7 SEP 2019 13:24
 entering extended mode
 **./Presentation.tex
 (Presentation.tex
@@ -1022,7 +1022,25 @@ Package pdftex.def Info: Images/cmd.PNG  used on input line 14.
 \openout2 = `Importar.aux'.
 
  (Importar.tex
-Overfull \vbox (9.29427pt too high) detected at line 24
+LaTeX Font Info:    Try loading font information for U+msa on input line 24.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 24.
+
+("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
+line 24.
+
+(C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/sansmathaccent\ot1mathkern
+cmss.fd
+File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
+thkerncmss.
+)
+Overfull \vbox (13.26973pt too high) detected at line 24
  []
 
 [6
@@ -1040,12 +1058,12 @@ Overfull \vbox (9.29427pt too high) detected at line 24
 \openout2 = `Python.aux'.
 
  (Python.tex
-<Images/python.PNG, id=226, 611.75027pt x 206.63113pt>
+<Images/python.PNG, id=227, 611.75027pt x 206.63113pt>
 File: Images/python.PNG Graphic file (type png)
 <use Images/python.PNG>
 Package pdftex.def Info: Images/python.PNG  used on input line 11.
 (pdftex.def)             Requested size: 183.52649pt x 61.9898pt.
-<Images/trending.PNG, id=227, 256.45813pt x 279.0425pt>
+<Images/trending.PNG, id=228, 256.45813pt x 279.0425pt>
 File: Images/trending.PNG Graphic file (type png)
 <use Images/trending.PNG>
 Package pdftex.def Info: Images/trending.PNG  used on input line 11.
@@ -1069,12 +1087,12 @@ Overfull \vbox (25.61324pt too high) detected at line 11
 \openout2 = `Confi2.aux'.
 
  (Confi2.tex
-<Images/prueba.PNG, id=282, 547.54562pt x 114.4275pt>
+<Images/prueba.PNG, id=283, 547.54562pt x 114.4275pt>
 File: Images/prueba.PNG Graphic file (type png)
 <use Images/prueba.PNG>
 Package pdftex.def Info: Images/prueba.PNG  used on input line 12.
 (pdftex.def)             Requested size: 328.5299pt x 68.65701pt.
-<Images/pruebapip.PNG, id=283, 251.94125pt x 176.15813pt>
+<Images/pruebapip.PNG, id=284, 251.94125pt x 176.15813pt>
 File: Images/pruebapip.PNG Graphic file (type png)
 <use Images/pruebapip.PNG>
 Package pdftex.def Info: Images/pruebapip.PNG  used on input line 12.
@@ -1090,25 +1108,7 @@ Overfull \vbox (3.89212pt too high) detected at line 12
  <./Images/prueba.PNG> <./Images/pruebapip.PNG>])
 \openout2 = `Inicio.aux'.
 
- (Inicio.tex
-LaTeX Font Info:    Try loading font information for U+msa on input line 25.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsa.fd"
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-)
-LaTeX Font Info:    Try loading font information for U+msb on input line 25.
-
-("C:\Program Files\MiKTeX 2.9\tex/latex/amsfonts\umsb.fd"
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-)
-LaTeX Font Info:    Try loading font information for OT1+mathkerncmss on input 
-line 25.
-
-(C:\Users\juand\AppData\Roaming\MiKTeX\2.9\tex/latex/sansmathaccent\ot1mathkern
-cmss.fd
-File: ot1mathkerncmss.fd 2013/03/27 Fontinst v1.933 font definitions for OT1/ma
-thkerncmss.
-) [11
+ (Inicio.tex [11
 
 
 
@@ -1124,20 +1124,21 @@ thkerncmss.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 35.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 35.
- (Presentation.aux (Intro.aux) (Git.aux) (Github.aux)
-(Consola.aux) (Importar.aux) (Exportar.aux) (Python.aux) (Confi.aux)
-(Confi2.aux) (Inicio.aux))
+
+(Presentation.aux (Intro.aux) (Git.aux) (Github.aux) (Consola.aux)
+(Importar.aux) (Exportar.aux) (Python.aux) (Confi.aux) (Confi2.aux) (Inicio.aux
+))
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 35.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 35.
 Package rerunfilecheck Info: File `Presentation.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18518 strings out of 492945
- 353924 string characters out of 3135513
- 456738 words of memory out of 3000000
- 21861 multiletter control sequences out of 15000+200000
- 19533 words of font info for 44 fonts, out of 3000000 for 9000
+ 18537 strings out of 492945
+ 354140 string characters out of 3135513
+ 457739 words of memory out of 3000000
+ 21874 multiletter control sequences out of 15000+200000
+ 23120 words of font info for 57 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  56i,15n,61p,781b,658s stack positions out of 5000i,500n,10000p,200000b,50000s
  <C:\Users\juand\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\
@@ -1149,10 +1150,11 @@ ec/dpi600\ecti1095.pk> <C:\Users\juand\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour
 cal\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecss1095.pk> <C:\Users\juand\
 AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecsx1095.pk> <C:\Us
 ers\juand\AppData\Local\MiKTeX\2.9\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.
-pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
-Output written on Presentation.pdf (11 pages, 857016 bytes).
+pk><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmssi8.pfb><C:/P
+rogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/symbols/msam7.pfb>
+Output written on Presentation.pdf (11 pages, 865964 bytes).
 PDF statistics:
- 598 PDF objects out of 1000 (max. 8388607)
+ 602 PDF objects out of 1000 (max. 8388607)
  23 named destinations out of 1000 (max. 500000)
  118 words of extra memory for PDF output out of 10000 (max. 10000000)
 
