@@ -1,0 +1,25 @@
+\frametitle{Manejo del software - Markdown}
+\vspace{10pt}
+
+\begin{center}
+\begin{lstlisting}
+# __Titulo principal en negrilla__
+
+## _Titulo secundario en cursiva_
+
+### ...
+
+* Primer elemento de una lista
+* Segundo
+	**Primer subelemento
+	** Segundo
+
+$Ecuacion en Latex$ en una frase
+
+$$
+	Ecuacion completa
+$$
+
+\end{lstlisting}
+\end{center}
+
