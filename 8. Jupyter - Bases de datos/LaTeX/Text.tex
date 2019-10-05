@@ -1,0 +1,28 @@
+\begin{frame}[fragile]{Archivos de texto (paréntesis)}\vspace{10pt}
+
+Los archivos de texto también se pueden usar como bases de datos para aplicaciones sencillas y predecibles.
+
+Para crear un archivo de texto...
+
+\begin{center}
+\begin{lstlisting}
+	text = ``Lo que quieras almacenar''
+	with open(``nombre.txt'', ``w+'') as file:
+		file.write(text)
+\end{lstlisting}
+\end{center}
+
+Para leer información...
+
+\begin{center}
+\begin{lstlisting}
+	with open(``nombre.txt'', ``r'') as file:
+		text = file.read()
+\end{lstlisting}
+\end{center}
+
+\vspace{5pt}
+
+\textbf{NOTA}: Un ejemplo ``en vivo`` se encuentra en Jupyter.
+
+\end{frame}
